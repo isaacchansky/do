@@ -59,6 +59,7 @@ $(document).ready(function(){
     focusLast();
   });
 
+
   $.each(todos, function(i, todoText){
     var $tpl = $(tpl);
     $tpl.find('input').val(todoText);
